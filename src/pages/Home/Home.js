@@ -8,10 +8,10 @@ import Footer from "../../components/Footer";
 import ProductsListing from "../../components/ProductsListing";
 
 function Home() {
-    function handleDownVote() {}
-    function handleUpVote() {}
-    function handleSetFavorite() {}
-    function handleAddToCart() {}
+  function handleDownVote() {}
+  function handleUpVote() {}
+  function handleSetFavorite() {}
+  function handleAddToCart() {}
 
   return (
     <>
@@ -24,7 +24,13 @@ function Home() {
           </p>
           <p className="font-weight-bold">Buy now!</p>
         </header>
-        {/* <ProductsListing /> */}
+        <ProductsListing
+          products={products}
+          handleDownVote={handleDownVote}
+          handleUpVote={handleUpVote}
+          handleSetFavorite={handleSetFavorite}
+          handleAddToCart={handleAddToCart}
+        />
       </Main>
       <Footer />
     </>

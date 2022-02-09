@@ -17,6 +17,7 @@ function ProductsListing( products, handleDownVote, handleUpVote, handleSetFavor
           downVotes={product.votes.downVotes}
           handleDownVote={handleDownVote}
           isFavorite={product.isFavorite}
+          handleSetFavorite={handleSetFavorite}
           handleAddToCart={handleAddToCart}
         />
       ))}
