@@ -125,7 +125,7 @@ In this step you will need to finish the code with the following requirements:
 1. return a `<main>` html5 element that renders the `{children}` prop it
    receives
 2. receive all the other `...props` and forward them to the `<main>` element
-3. export the component from an `index.js` file. you should export the default
+3. export the component from an `index.js` file. you should export the defau
    component if is the only one
 
 #### Test suite name
